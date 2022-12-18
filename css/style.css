@@ -85,6 +85,9 @@
     background: rgba(0, 0, 0, 0.7) url('../images/nissan-gtr-r35-night-flame-backside.jpg');
     background-size: cover;
     background-blend-mode: darken;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .firstSection{
@@ -100,6 +103,7 @@
     max-width: 50%;
     margin: auto;
     height: 60%;     
+    padding-top: 85px;
 
 }
 
@@ -169,8 +173,21 @@
     color: black;
     border: 2px solid grey;
     
-    
-    
+
+ }
+ .paras{
+    color: white;
+ }
+
+ .back1{
+    background:rgba(0, 0, 0, 0.7) url(../images/back.1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-blend-mode: darken;
+    padding: 50px 50px;
+
     
 
  }
@@ -184,6 +201,20 @@
     justify-content: space-evenly;
     font-family: 'Lora', serif;
     padding: 10px;
+
+    
+
+}
+.back2{
+    background:rgba(0, 0, 0, 0.7) url(../images/back.2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-blend-mode: darken;
+     padding: 70px 70px;
+
+
 }
 
 .secleft{
@@ -197,6 +228,16 @@
     font-family: 'Lora', serif;
     padding: 10px;
 }
+.back3{
+    background:rgba(0, 0, 0, 0.7) url(../images/back.3.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-blend-mode: darken;
+     padding: 50px 50px;
+
+}
 
 .sectop{
  
@@ -207,6 +248,15 @@
     justify-content: space-evenly;
     font-family: 'Lora', serif;
     padding: 10px;
+}
+.back5{
+    background:rgba(0, 0, 0, 0.7) url(../images/back5.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-blend-mode: darken;
+     padding: 70px 70px;
 }
 .secmid{
     
@@ -219,6 +269,16 @@
     flex-direction: row-reverse;
     padding: 10px;
 }
+.back4{
+    background:rgba(0, 0, 0, 0.7) url(../images/back.4.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-blend-mode: darken;
+     padding: 50px 50px;
+}
+
 .seclast{
    
     margin: auto;
@@ -232,7 +292,7 @@
 
 .imgFluid{
     height: 200px;
-    border: 2PX SOLID black;
+    border: 2PX SOLID white;
     border-radius: 15px;
     margin-top: 15px    ;
 }
